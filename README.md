@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 3. Download the YuNet face detection model:
 ```bash
-# Download face_detection_yunet_2023mar.onnx from OpenCV's official repository
+Download face_detection_yunet_2023mar.onnx from this repo
 ```
 
 ## Usage
