@@ -1,70 +1,102 @@
-# BlurGuard: Revolutionizing Privacy in Media
+# BlurGuard
 
-In today’s digital age, privacy is paramount. **BlurGuard** is an innovative, easy-to-use solution that empowers you to protect the privacy of individuals in images and videos. Whether you're working with personal media or handling sensitive content, BlurGuard offers automated face anonymization to ensure your media stays safe without compromising on quality.
+> Advanced privacy protection through automated face anonymization in images and videos
 
-## The Problem
+## Overview
 
-With the rise of facial recognition and digital content sharing, personal privacy is constantly at risk. Blurring faces manually is time-consuming and often lacks precision, leaving gaps in privacy protection. This is where BlurGuard comes in.
+BlurGuard is a powerful, user-friendly application that provides automated face anonymization for images and videos. Built with Streamlit and powered by the YuNet face detection model, it offers enterprise-grade privacy protection without compromising on simplicity.
 
-## The Solution
+## Features
 
-**BlurGuard** uses cutting-edge technology to automatically detect and blur faces in images and videos, providing a simple and efficient solution to anonymize media content. Built on **Streamlit** and powered by the **YuNet face detection model**, BlurGuard offers a streamlined user experience with unparalleled ease of use.
+### Core Capabilities
+- Automated face detection and blurring using YuNet model
+- Support for both images (JPG, JPEG, PNG) and videos (MP4, AVI, MOV)
+- Local processing for enhanced security
+- Real-time preview of anonymization results
+- Customizable blur intensity
+- Batch processing support
 
-## Key Features
+### Security & Privacy
+- All processing performed locally on user's device
+- No cloud storage or external data transmission
+- Automatic cleanup of temporary files
+- Complete user control over media content
 
-- **Advanced Face Detection**: Leverages the powerful YuNet face detection model for precise and reliable face identification.
-- **Dual Media Support**: Anonymize both **images** (JPG, JPEG, PNG) and **videos** (MP4, AVI, MOV) in popular formats.
-- **Adjustable Blur Intensity**: Customize the level of anonymization with a simple slider to suit your privacy needs.
-- **Batch Processing**: BlurGuard can process multiple faces in a single image or video, saving you time and effort.
-- **Real-Time Preview**: View face anonymization results instantly on the interface before downloading.
-- **Easy Download Options**: Effortlessly download the processed media, now with enhanced privacy protection.
+## Getting Started
 
-## Why BlurGuard?
+### Prerequisites
+- Python 3.7 or higher
+- Dependencies:
+  - OpenCV (cv2)
+  - Streamlit
+  - NumPy
+  - Pillow
 
-- **User-Friendly**: Designed with simplicity in mind, BlurGuard is intuitive and easy to navigate, making face anonymization accessible to everyone.
-- **No Cloud Dependency**: All processing is done locally on your device, ensuring maximum privacy and security.
-- **Efficient and Accurate**: Powered by YuNet, BlurGuard delivers high-accuracy face detection without the need for specialized hardware.
+### Quick Start
+1. Visit [blurguard.streamlit.app](http://blurguard.streamlit.app)
+2. Upload your media file
+3. Adjust blur settings using the intensity slider
+4. Process and download your anonymized content
 
-## How It Works
+### Installation
 
-1. **Access the Web Interface**:  
-   Visit [blurguard.streamlit.app](http://blurguard.streamlit.app) to get started.
+1. Clone the repository:
+```bash
+git clone https://github.com/sanjayperam04/BlurGuard.git
+cd BlurGuard
+```
 
-2. **Select Media and Adjust Blur**:  
-   Upload your image or video, adjust the blur intensity via the slider, and click "Process."
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-3. **Download Your Processed Media**:  
-   Enjoy your anonymized content, ready for safe sharing.
+3. Run the application:
+```bash
+streamlit run app.py
+```
 
-## Privacy First
+## Usage
 
-- **Local Processing**: All operations are handled on your machine—no data is uploaded to the cloud.
-- **Temporary Files**: Files are cleaned up after processing, ensuring no lingering data.
-- **Complete Control**: You retain full control over your media content, and only the files you choose to download are saved.
+### Image Processing
+1. Select the "Image Processing" tab
+2. Upload an image (JPG, JPEG, or PNG)
+3. Adjust the blur intensity using the slider
+4. Click "Apply Face Blurring"
+5. Download the processed image
 
-## Supported Formats
-
-- **Images**: JPG, JPEG, PNG
-- **Videos**: MP4, AVI, MOV
-
-## Requirements
-
-- Python 3.7+
-- OpenCV (cv2)
-- Streamlit
-- NumPy
-- Pillow
-
-## License
-
-This project is licensed under the **MIT License**. See the LICENSE file for more details.
+### Video Processing
+1. Select the "Video Processing" tab
+2. Upload a video (MP4, AVI, or MOV)
+3. Adjust the blur intensity
+4. Click "Process Video"
+5. Download the anonymized video
 
 ## Contributing
 
-We welcome contributions from the community! If you’d like to improve BlurGuard, feel free to submit a **Pull Request**.
+We welcome contributions from the community. To contribute:
 
-## Get Started Now!
+1. Fork the repository
+2. Create a feature branch
+3. Implement your changes
+4. Submit a pull request
 
-Check out **BlurGuard** today at [blurguard.streamlit.app](http://blurguard.streamlit.app) and protect your media with a click of a button. For any questions or issues, open an issue on our [GitHub repository](https://github.com/sanjayperam04/BlurGuard).
+Please ensure your code adheres to our coding standards and includes appropriate tests.
 
+## License
 
+BlurGuard is released under the MIT License. See [LICENSE](LICENSE) for details.
+
+## Support
+
+- **Issues & Bugs**: Submit via our [GitHub repository](https://github.com/sanjayperam04/BlurGuard)
+- **Documentation**: Available in our [GitHub wiki](https://github.com/sanjayperam04/BlurGuard/wiki)
+- **Feature Requests**: Use the Issues section with the 'enhancement' label
+
+## Project Status
+
+BlurGuard is under active development. We regularly release updates with new features and improvements.
+
+---
+
+*BlurGuard: Empowering privacy protection in the digital age.*
