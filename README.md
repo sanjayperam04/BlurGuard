@@ -39,7 +39,7 @@ Download face_detection_yunet_2023mar.onnx from this repo
 
 1. Start the application:
 ```bash
-streamlit run app.py
+streamlit run main.py
 ```
 
 2. Access the web interface through your browser (typically http://localhost:8501)
