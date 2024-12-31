@@ -6,7 +6,7 @@ import tempfile
 
 # Set page configuration
 st.set_page_config(
-    page_title="Face Anonymizer Pro",
+    page_title="BlurGuard",
     page_icon="🎭",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -130,7 +130,7 @@ def main():
         st.markdown("---")
         st.markdown("""
         ### About
-        Face Anonymizer Pro helps you protect privacy by automatically detecting and blurring faces in images and videos.
+        BlurGuard helps you protect privacy by automatically detecting and blurring faces in images and videos.
         
         ### Features
         - Advanced face detection
@@ -140,7 +140,7 @@ def main():
         """)
 
     # Main content
-    st.title("Face Anonymizer Pro")
+    st.title("BlurGuard")
     st.markdown("""
         Protect privacy in your media content with professional-grade face anonymization.
         Upload your files below to get started.
